@@ -7,6 +7,6 @@ app.use(express.static('public'));
 
 app.use(express.json()); // lets you handle JSON input
 
-app.get('/', (req, res) => res.send('Hello World!'));
+app.get('/', (req, res) => res.send('its over!!'));
 
 app.listen(process.env.PORT || port, () => console.log(`Example app listening at http://localhost:${port}`));
